@@ -13,4 +13,5 @@ Run Elasticsearch, kibana and logstash to visulaize data in real time.
 To run the project, run sparkStreaming.scala class on IntelliJ or create an assembly fat jar file and run the jar file with the below command:
 
 spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.11:2.4.0
+
 --class ClassName(sparkStreaming) PathToJarFile -- 6 arguments
