@@ -1,6 +1,18 @@
 # Twitter-Sentiment-Analysis-using-Spark-Streaming-and-Kafka
 
+Description:
+
+Developed a spark streaming application that will continuously read data from twitter about a topic.
+
+The tweets obtained are analyzed for sentiment using NLP and sent to a Kafka topic.
+
+Sentiments from the Kafka topic were forwarded to Elasticsearch using Logstash as pipeline.
+
+Visualized the sentiment of tweets from the Elasticsearch data using Kibana.
+
+
 Instructions to run:
+
 It needs 7 arguments to be passed. 4 arguments for twitter to generate oAuth credentials
 Arguments to be passed: consumer key, consumer secret key, access token, secret access token, 
 twitter topic, kafka topic, checkpoint directory path
